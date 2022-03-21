@@ -3,7 +3,7 @@ import React from 'react'
 const HelloWithoutJSX = () => {
     return React.createElement(
         'div',
-        null,
+        {id: 'hello', className: 'dummyClass'},
         React.createElement('h1', null, 'Hello, Pratyush Mani Manav')
     )
 }
