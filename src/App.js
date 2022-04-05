@@ -19,11 +19,14 @@ import styles from './appStyles.module.css'
 import Form from './components/Form'
 import FragmentDemo from './components/FragmentDemo'
 import Tables from './components/Tables'
+import PureComp from './components/PureComp'
+import ParentComp from './components/ParentComp'
 
 function App() {
   return (
     <div className="App">
-      <Tables />
+      <ParentComp />
+      {/* <Tables /> */}
       {/* <FragmentDemo /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
